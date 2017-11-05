@@ -76,5 +76,5 @@
      - script:
          name: Start all services/containers
          code: |
-           ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST sudo docker container run --detach -p 99:80 --name ravi-linux palanki/kubelearning:current
+           ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST sudo docker  container run --detach -p 99:80 --name ravi-linux palanki/kubelearning:current
 
